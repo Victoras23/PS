@@ -1,0 +1,12 @@
+Adaptive Noise Cancellation using the Recursive
+Least Squares Algorithm.
+
+The RLS adaptive filter uses the reference signal (on
+the "In" port) and the error signal to automatically match the filter
+response in the block labeled "Noise filter". As it converges to
+the correct filter, the filtered noise should be
+completely subtracted from the "Signal+Noise" signal
+and the "Error Signal" should contain only
+the original signal.
+
+For details, see "Adaptive Filter Theory", 3rd Ed. by
